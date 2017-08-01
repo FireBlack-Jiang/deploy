@@ -1,0 +1,189 @@
+2017-07-20 19:17:12  [ main:0 ] - [ INFO ]  Hello World!0
+2017-07-20 19:18:07  [ main:0 ] - [ INFO ]  Hello World!0
+2017-07-20 19:33:54  [ main:0 ] - [ INFO ]  Hello World!0
+2017-07-20 19:34:16  [ main:0 ] - [ INFO ]  Hello World!0
+2017-07-20 19:40:32  [ main:0 ] - [ INFO ]  Job execution threads will use class loader of thread: main
+2017-07-20 19:40:32  [ main:17 ] - [ INFO ]  Quartz Scheduler v.1.6.0 created.
+2017-07-20 19:40:32  [ main:19 ] - [ INFO ]  RAMJobStore initialized.
+2017-07-20 19:40:32  [ main:20 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-07-20 19:40:32  [ main:21 ] - [ INFO ]  Quartz scheduler version: 1.6.0
+2017-07-20 19:40:32  [ main:37 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-07-20 19:40:35  [ DefaultQuartzScheduler_Worker-1:2426 ] - [ INFO ]  1
+2017-07-20 19:40:40  [ DefaultQuartzScheduler_Worker-2:7421 ] - [ INFO ]  2
+2017-07-20 19:40:45  [ DefaultQuartzScheduler_Worker-3:12413 ] - [ INFO ]  3
+2017-07-20 19:40:50  [ DefaultQuartzScheduler_Worker-4:17421 ] - [ INFO ]  4
+2017-07-20 20:24:16  [ main:0 ] - [ INFO ]  Job execution threads will use class loader of thread: main
+2017-07-20 20:24:16  [ main:20 ] - [ INFO ]  Quartz Scheduler v.1.6.0 created.
+2017-07-20 20:24:16  [ main:22 ] - [ INFO ]  RAMJobStore initialized.
+2017-07-20 20:24:16  [ main:24 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-07-20 20:24:16  [ main:24 ] - [ INFO ]  Quartz scheduler version: 1.6.0
+2017-07-20 20:24:16  [ main:43 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-07-20 20:32:29  [ main:0 ] - [ INFO ]  Job execution threads will use class loader of thread: main
+2017-07-20 20:32:29  [ main:16 ] - [ INFO ]  Quartz Scheduler v.1.6.0 created.
+2017-07-20 20:32:29  [ main:18 ] - [ INFO ]  RAMJobStore initialized.
+2017-07-20 20:32:29  [ main:19 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-07-20 20:32:29  [ main:19 ] - [ INFO ]  Quartz scheduler version: 1.6.0
+2017-07-20 20:32:29  [ main:36 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-07-20 20:32:30  [ DefaultQuartzScheduler_Worker-1:145 ] - [ INFO ]  1
+2017-07-20 20:32:32  [ DefaultQuartzScheduler_Worker-2:2138 ] - [ INFO ]  2
+2017-07-20 20:32:34  [ DefaultQuartzScheduler_Worker-3:4138 ] - [ INFO ]  3
+2017-07-20 20:32:36  [ DefaultQuartzScheduler_Worker-4:6138 ] - [ INFO ]  4
+2017-07-20 20:32:38  [ DefaultQuartzScheduler_Worker-5:8139 ] - [ INFO ]  5
+2017-07-20 20:32:40  [ DefaultQuartzScheduler_Worker-6:10141 ] - [ INFO ]  6
+2017-07-20 20:32:42  [ DefaultQuartzScheduler_Worker-7:12134 ] - [ INFO ]  7
+2017-07-20 20:32:44  [ DefaultQuartzScheduler_Worker-8:14136 ] - [ INFO ]  8
+2017-07-20 20:32:46  [ DefaultQuartzScheduler_Worker-9:16139 ] - [ INFO ]  9
+2017-07-20 20:32:48  [ DefaultQuartzScheduler_Worker-10:18139 ] - [ INFO ]  10
+2017-07-20 20:32:50  [ DefaultQuartzScheduler_Worker-1:20140 ] - [ INFO ]  11
+2017-07-20 20:32:52  [ DefaultQuartzScheduler_Worker-2:22132 ] - [ INFO ]  12
+2017-07-20 20:32:54  [ DefaultQuartzScheduler_Worker-3:24136 ] - [ INFO ]  13
+2017-07-20 20:32:56  [ DefaultQuartzScheduler_Worker-4:26136 ] - [ INFO ]  14
+2017-07-20 20:32:58  [ DefaultQuartzScheduler_Worker-5:28134 ] - [ INFO ]  15
+2017-07-20 20:33:00  [ DefaultQuartzScheduler_Worker-6:30135 ] - [ INFO ]  16
+2017-07-20 20:33:02  [ DefaultQuartzScheduler_Worker-7:32137 ] - [ INFO ]  17
+2017-07-20 20:33:04  [ DefaultQuartzScheduler_Worker-8:34137 ] - [ INFO ]  18
+2017-07-20 20:33:06  [ DefaultQuartzScheduler_Worker-9:36137 ] - [ INFO ]  19
+2017-07-20 20:33:08  [ DefaultQuartzScheduler_Worker-10:38138 ] - [ INFO ]  20
+2017-07-20 20:33:10  [ DefaultQuartzScheduler_Worker-1:40138 ] - [ INFO ]  21
+2017-07-20 20:33:12  [ DefaultQuartzScheduler_Worker-2:42131 ] - [ INFO ]  22
+2017-07-20 20:33:14  [ DefaultQuartzScheduler_Worker-3:44134 ] - [ INFO ]  23
+2017-07-20 20:33:16  [ DefaultQuartzScheduler_Worker-4:46136 ] - [ INFO ]  24
+2017-07-20 20:33:18  [ DefaultQuartzScheduler_Worker-5:48136 ] - [ INFO ]  25
+2017-07-20 20:33:20  [ DefaultQuartzScheduler_Worker-6:50137 ] - [ INFO ]  26
+2017-07-20 20:33:22  [ DefaultQuartzScheduler_Worker-7:52137 ] - [ INFO ]  27
+2017-07-20 20:33:24  [ DefaultQuartzScheduler_Worker-8:54138 ] - [ INFO ]  28
+2017-07-20 20:33:26  [ DefaultQuartzScheduler_Worker-9:56138 ] - [ INFO ]  29
+2017-07-20 20:33:28  [ DefaultQuartzScheduler_Worker-10:58139 ] - [ INFO ]  30
+2017-07-20 20:33:30  [ DefaultQuartzScheduler_Worker-1:60140 ] - [ INFO ]  31
+2017-07-20 20:33:32  [ DefaultQuartzScheduler_Worker-2:62140 ] - [ INFO ]  32
+2017-07-20 20:33:34  [ DefaultQuartzScheduler_Worker-3:64132 ] - [ INFO ]  33
+2017-07-20 20:33:36  [ DefaultQuartzScheduler_Worker-4:66133 ] - [ INFO ]  34
+2017-07-20 20:33:38  [ DefaultQuartzScheduler_Worker-5:68135 ] - [ INFO ]  35
+2017-07-20 20:33:40  [ DefaultQuartzScheduler_Worker-6:70140 ] - [ INFO ]  36
+2017-07-20 20:33:42  [ DefaultQuartzScheduler_Worker-7:72140 ] - [ INFO ]  37
+2017-07-20 20:33:44  [ DefaultQuartzScheduler_Worker-8:74131 ] - [ INFO ]  38
+2017-07-20 20:33:46  [ DefaultQuartzScheduler_Worker-9:76140 ] - [ INFO ]  39
+2017-07-20 20:33:48  [ DefaultQuartzScheduler_Worker-10:78140 ] - [ INFO ]  40
+2017-07-20 20:33:50  [ DefaultQuartzScheduler_Worker-1:80135 ] - [ INFO ]  41
+2017-07-20 20:33:52  [ DefaultQuartzScheduler_Worker-2:82141 ] - [ INFO ]  42
+2017-07-20 20:33:54  [ DefaultQuartzScheduler_Worker-3:84131 ] - [ INFO ]  43
+2017-07-20 20:33:56  [ DefaultQuartzScheduler_Worker-4:86133 ] - [ INFO ]  44
+2017-07-20 20:33:58  [ DefaultQuartzScheduler_Worker-5:88136 ] - [ INFO ]  45
+2017-07-20 20:34:00  [ DefaultQuartzScheduler_Worker-6:90136 ] - [ INFO ]  46
+2017-07-20 20:34:02  [ DefaultQuartzScheduler_Worker-7:92138 ] - [ INFO ]  47
+2017-07-20 20:34:04  [ DefaultQuartzScheduler_Worker-8:94138 ] - [ INFO ]  48
+2017-07-20 20:34:06  [ DefaultQuartzScheduler_Worker-9:96139 ] - [ INFO ]  49
+2017-07-20 20:34:08  [ DefaultQuartzScheduler_Worker-10:98134 ] - [ INFO ]  50
+2017-07-20 20:34:10  [ DefaultQuartzScheduler_Worker-1:100134 ] - [ INFO ]  51
+2017-07-20 20:34:12  [ DefaultQuartzScheduler_Worker-2:102135 ] - [ INFO ]  52
+2017-07-20 20:34:14  [ DefaultQuartzScheduler_Worker-3:104137 ] - [ INFO ]  53
+2017-07-20 20:40:34  [ main:0 ] - [ INFO ]  Job execution threads will use class loader of thread: main
+2017-07-20 20:40:34  [ main:19 ] - [ INFO ]  Quartz Scheduler v.1.6.0 created.
+2017-07-20 20:40:34  [ main:20 ] - [ INFO ]  RAMJobStore initialized.
+2017-07-20 20:40:34  [ main:22 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-07-20 20:40:34  [ main:22 ] - [ INFO ]  Quartz scheduler version: 1.6.0
+2017-07-20 20:40:34  [ main:39 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-07-20 20:40:34  [ DefaultQuartzScheduler_Worker-1:47 ] - [ INFO ]  1
+2017-07-20 20:40:36  [ DefaultQuartzScheduler_Worker-2:1950 ] - [ INFO ]  2
+2017-07-20 20:40:38  [ DefaultQuartzScheduler_Worker-3:3951 ] - [ INFO ]  3
+2017-07-20 20:40:40  [ DefaultQuartzScheduler_Worker-4:5952 ] - [ INFO ]  4
+2017-07-20 20:40:42  [ DefaultQuartzScheduler_Worker-5:7954 ] - [ INFO ]  5
+2017-07-20 20:40:44  [ DefaultQuartzScheduler_Worker-6:9953 ] - [ INFO ]  6
+2017-07-20 20:40:46  [ DefaultQuartzScheduler_Worker-7:11946 ] - [ INFO ]  7
+2017-07-20 20:40:48  [ DefaultQuartzScheduler_Worker-8:13948 ] - [ INFO ]  8
+2017-07-20 20:40:50  [ DefaultQuartzScheduler_Worker-9:15950 ] - [ INFO ]  9
+2017-07-20 20:40:52  [ DefaultQuartzScheduler_Worker-10:17949 ] - [ INFO ]  10
+2017-07-20 20:40:54  [ DefaultQuartzScheduler_Worker-1:19951 ] - [ INFO ]  11
+2017-07-20 20:40:56  [ DefaultQuartzScheduler_Worker-2:21946 ] - [ INFO ]  12
+2017-07-20 20:40:58  [ DefaultQuartzScheduler_Worker-3:23949 ] - [ INFO ]  13
+2017-07-20 20:41:00  [ DefaultQuartzScheduler_Worker-4:25952 ] - [ INFO ]  14
+2017-07-20 20:41:02  [ DefaultQuartzScheduler_Worker-5:27952 ] - [ INFO ]  15
+2017-07-20 20:41:04  [ DefaultQuartzScheduler_Worker-6:29954 ] - [ INFO ]  16
+2017-07-20 20:41:06  [ DefaultQuartzScheduler_Worker-7:31955 ] - [ INFO ]  17
+2017-07-20 20:41:08  [ DefaultQuartzScheduler_Worker-8:33947 ] - [ INFO ]  18
+2017-07-20 20:41:10  [ DefaultQuartzScheduler_Worker-9:35948 ] - [ INFO ]  19
+2017-07-20 20:41:12  [ DefaultQuartzScheduler_Worker-10:37949 ] - [ INFO ]  20
+2017-07-20 20:41:14  [ DefaultQuartzScheduler_Worker-1:39953 ] - [ INFO ]  21
+2017-07-20 20:41:16  [ DefaultQuartzScheduler_Worker-2:41946 ] - [ INFO ]  22
+2017-07-20 20:41:18  [ DefaultQuartzScheduler_Worker-3:43946 ] - [ INFO ]  23
+2017-07-20 20:41:20  [ DefaultQuartzScheduler_Worker-4:45947 ] - [ INFO ]  24
+2017-07-20 20:41:22  [ DefaultQuartzScheduler_Worker-5:47947 ] - [ INFO ]  25
+2017-07-20 20:41:24  [ DefaultQuartzScheduler_Worker-6:49947 ] - [ INFO ]  26
+2017-07-20 20:41:26  [ DefaultQuartzScheduler_Worker-7:51947 ] - [ INFO ]  27
+2017-07-20 20:41:28  [ DefaultQuartzScheduler_Worker-8:53951 ] - [ INFO ]  28
+2017-07-20 20:41:30  [ DefaultQuartzScheduler_Worker-9:55953 ] - [ INFO ]  29
+2017-07-20 20:41:32  [ DefaultQuartzScheduler_Worker-10:57954 ] - [ INFO ]  30
+2017-07-20 20:41:34  [ DefaultQuartzScheduler_Worker-1:59951 ] - [ INFO ]  31
+2017-07-20 20:41:36  [ DefaultQuartzScheduler_Worker-2:61952 ] - [ INFO ]  32
+2017-07-20 20:41:38  [ DefaultQuartzScheduler_Worker-3:63953 ] - [ INFO ]  33
+2017-07-20 20:41:40  [ DefaultQuartzScheduler_Worker-4:65956 ] - [ INFO ]  34
+2017-07-20 20:41:42  [ DefaultQuartzScheduler_Worker-5:67949 ] - [ INFO ]  35
+2017-07-20 20:41:44  [ DefaultQuartzScheduler_Worker-6:69955 ] - [ INFO ]  36
+2017-07-20 20:41:46  [ DefaultQuartzScheduler_Worker-7:71946 ] - [ INFO ]  37
+2017-07-20 20:41:48  [ DefaultQuartzScheduler_Worker-8:73951 ] - [ INFO ]  38
+2017-07-20 20:41:50  [ DefaultQuartzScheduler_Worker-9:75952 ] - [ INFO ]  39
+2017-07-20 20:41:52  [ DefaultQuartzScheduler_Worker-10:77954 ] - [ INFO ]  40
+2017-07-20 20:41:54  [ DefaultQuartzScheduler_Worker-1:79948 ] - [ INFO ]  41
+2017-07-20 20:41:56  [ DefaultQuartzScheduler_Worker-2:81948 ] - [ INFO ]  42
+2017-07-20 20:41:58  [ DefaultQuartzScheduler_Worker-3:83949 ] - [ INFO ]  43
+2017-07-20 20:42:00  [ DefaultQuartzScheduler_Worker-4:85948 ] - [ INFO ]  44
+2017-07-20 20:42:02  [ DefaultQuartzScheduler_Worker-5:87948 ] - [ INFO ]  45
+2017-07-20 20:42:04  [ DefaultQuartzScheduler_Worker-6:89946 ] - [ INFO ]  46
+2017-07-20 20:42:06  [ DefaultQuartzScheduler_Worker-7:91947 ] - [ INFO ]  47
+2017-07-20 20:42:08  [ DefaultQuartzScheduler_Worker-8:93948 ] - [ INFO ]  48
+2017-07-20 20:42:10  [ DefaultQuartzScheduler_Worker-9:95949 ] - [ INFO ]  49
+2017-07-20 20:42:12  [ DefaultQuartzScheduler_Worker-10:97950 ] - [ INFO ]  50
+2017-07-20 20:42:14  [ DefaultQuartzScheduler_Worker-1:99952 ] - [ INFO ]  51
+2017-07-20 20:42:16  [ DefaultQuartzScheduler_Worker-2:101955 ] - [ INFO ]  52
+2017-07-20 20:42:18  [ DefaultQuartzScheduler_Worker-3:103950 ] - [ INFO ]  53
+2017-07-20 20:42:20  [ DefaultQuartzScheduler_Worker-4:105950 ] - [ INFO ]  54
+2017-07-20 20:42:22  [ DefaultQuartzScheduler_Worker-5:107952 ] - [ INFO ]  55
+2017-07-20 20:42:24  [ DefaultQuartzScheduler_Worker-6:109952 ] - [ INFO ]  56
+2017-07-20 20:42:26  [ DefaultQuartzScheduler_Worker-7:111953 ] - [ INFO ]  57
+2017-07-20 20:42:28  [ DefaultQuartzScheduler_Worker-8:113954 ] - [ INFO ]  58
+2017-07-20 20:42:30  [ DefaultQuartzScheduler_Worker-9:115954 ] - [ INFO ]  59
+2017-07-20 20:42:32  [ DefaultQuartzScheduler_Worker-10:117948 ] - [ INFO ]  60
+2017-07-20 20:42:34  [ DefaultQuartzScheduler_Worker-1:119948 ] - [ INFO ]  61
+2017-07-20 20:42:36  [ DefaultQuartzScheduler_Worker-2:121949 ] - [ INFO ]  62
+2017-07-20 20:42:38  [ DefaultQuartzScheduler_Worker-3:123950 ] - [ INFO ]  63
+2017-07-20 20:42:40  [ DefaultQuartzScheduler_Worker-4:125952 ] - [ INFO ]  64
+2017-07-20 20:42:42  [ DefaultQuartzScheduler_Worker-5:127955 ] - [ INFO ]  65
+2017-07-20 20:42:44  [ DefaultQuartzScheduler_Worker-6:129947 ] - [ INFO ]  66
+2017-07-20 20:42:46  [ DefaultQuartzScheduler_Worker-7:131948 ] - [ INFO ]  67
+2017-07-20 20:42:48  [ DefaultQuartzScheduler_Worker-8:133948 ] - [ INFO ]  68
+2017-07-20 20:42:50  [ DefaultQuartzScheduler_Worker-9:135948 ] - [ INFO ]  69
+2017-07-20 20:42:52  [ DefaultQuartzScheduler_Worker-10:137948 ] - [ INFO ]  70
+2017-07-20 20:42:54  [ DefaultQuartzScheduler_Worker-1:139948 ] - [ INFO ]  71
+2017-07-20 20:42:56  [ DefaultQuartzScheduler_Worker-2:141948 ] - [ INFO ]  72
+2017-07-20 20:42:58  [ DefaultQuartzScheduler_Worker-3:143949 ] - [ INFO ]  73
+2017-07-20 20:43:00  [ DefaultQuartzScheduler_Worker-4:145949 ] - [ INFO ]  74
+2017-07-20 20:43:02  [ DefaultQuartzScheduler_Worker-5:147952 ] - [ INFO ]  75
+2017-07-20 20:43:04  [ DefaultQuartzScheduler_Worker-6:149952 ] - [ INFO ]  76
+2017-07-20 20:43:06  [ DefaultQuartzScheduler_Worker-7:151953 ] - [ INFO ]  77
+2017-07-20 20:43:08  [ DefaultQuartzScheduler_Worker-8:153955 ] - [ INFO ]  78
+2017-07-20 20:43:10  [ DefaultQuartzScheduler_Worker-9:155955 ] - [ INFO ]  79
+2017-07-20 20:43:12  [ DefaultQuartzScheduler_Worker-10:157946 ] - [ INFO ]  80
+2017-07-20 20:43:14  [ DefaultQuartzScheduler_Worker-1:159947 ] - [ INFO ]  81
+2017-07-20 20:43:16  [ DefaultQuartzScheduler_Worker-2:161947 ] - [ INFO ]  82
+2017-07-20 20:43:18  [ DefaultQuartzScheduler_Worker-3:163947 ] - [ INFO ]  83
+2017-07-20 20:43:20  [ DefaultQuartzScheduler_Worker-4:165948 ] - [ INFO ]  84
+2017-07-20 20:43:22  [ DefaultQuartzScheduler_Worker-5:167949 ] - [ INFO ]  85
+2017-07-20 20:43:24  [ DefaultQuartzScheduler_Worker-6:169949 ] - [ INFO ]  86
+2017-07-20 20:43:26  [ DefaultQuartzScheduler_Worker-7:171949 ] - [ INFO ]  87
+2017-07-20 20:43:28  [ DefaultQuartzScheduler_Worker-8:173955 ] - [ INFO ]  88
+2017-07-20 20:43:30  [ DefaultQuartzScheduler_Worker-9:175954 ] - [ INFO ]  89
+2017-07-20 20:43:44  [ main:0 ] - [ INFO ]  Job execution threads will use class loader of thread: main
+2017-07-20 20:43:44  [ main:21 ] - [ INFO ]  Quartz Scheduler v.1.6.0 created.
+2017-07-20 20:43:44  [ main:23 ] - [ INFO ]  RAMJobStore initialized.
+2017-07-20 20:43:44  [ main:25 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-07-20 20:43:44  [ main:25 ] - [ INFO ]  Quartz scheduler version: 1.6.0
+2017-07-20 20:43:44  [ main:46 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-07-20 20:43:44  [ DefaultQuartzScheduler_Worker-1:55 ] - [ INFO ]  1
+2017-07-20 20:43:46  [ DefaultQuartzScheduler_Worker-2:1275 ] - [ INFO ]  2
+2017-07-20 21:03:31  [ main:0 ] - [ INFO ]  Job execution threads will use class loader of thread: main
+2017-07-20 21:03:31  [ main:19 ] - [ INFO ]  Quartz Scheduler v.1.6.0 created.
+2017-07-20 21:03:31  [ main:21 ] - [ INFO ]  RAMJobStore initialized.
+2017-07-20 21:03:31  [ main:23 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-07-20 21:03:31  [ main:23 ] - [ INFO ]  Quartz scheduler version: 1.6.0
+2017-07-20 21:03:32  [ main:43 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-07-20 21:03:32  [ DefaultQuartzScheduler_Worker-1:62 ] - [ INFO ]  1
