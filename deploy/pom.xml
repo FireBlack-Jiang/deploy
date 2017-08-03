@@ -124,6 +124,13 @@
 			<artifactId>dom4j</artifactId>
 			<version>1.1</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.github.tsohr/json -->
+<dependency>
+    <groupId>com.github.tsohr</groupId>
+    <artifactId>json</artifactId>
+    <version>0.0.1</version>
+</dependency>
+		
 	</dependencies>
 	<build>
 		<plugins>

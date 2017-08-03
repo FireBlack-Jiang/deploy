@@ -1,7 +1,10 @@
 package com.myabc.swtich;
 
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
+import com.github.tsohr.JSONObject;
 import com.google.code.regexp.Matcher;
 import com.google.code.regexp.Pattern;
 import com.google.gson.Gson;
@@ -24,11 +27,8 @@ public class PkgConverter {
 			Log.log.error("inFormat:\n"+inFormat);
 			paraMap=null;
 		}
-		Gson gson=new Gson();
-		
 		return paraMap;
 	}
-
 	/**
 	 * 根据交易要素渲染输出报文模板，生成输出报文
 	 * @param paraMap 交易要素
@@ -43,7 +43,6 @@ public class PkgConverter {
 		while (m.find()) {
 			String param=m.group(1);
 			String value = paraMap.get(param);
-
 			m.appendReplacement(outPkg, value == null ? "" : value);
 		}
 
