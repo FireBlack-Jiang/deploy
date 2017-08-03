@@ -1,4 +1,4 @@
-package coom.myabc.http;
+package com.myabc.http;
 
 import org.apache.http.Consts;
 import org.apache.http.HttpEntity;

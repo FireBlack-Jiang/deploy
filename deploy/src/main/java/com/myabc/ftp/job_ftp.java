@@ -17,6 +17,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.params.CoreConnectionPNames;
 
+import com.myabc.config.PropConfig;
 import com.myabc.config.config;
 import com.myabc.logs.Log;
 
@@ -49,10 +50,11 @@ public class job_ftp  implements Job{
 	}
     private boolean init_ftp()
     {
-    	ftp_ip=config.getPropertieByName("ftp_ip");
-    	username=config.getPropertieByName("ftp_user");
-    	password=config.getPropertieByName("ftp_password");
-    	remotepath=config.getPropertieByName("ftp_remotepath");
+    	ftp_ip=PropConfig.get("ftp_ip");
+    	username=PropConfig.get("ftp_user");
+    	password=PropConfig.get("ftp_password");
+    	remotepath=PropConfig.get("ftp_remotepath");
+    	System.out.println("ftp:"+ftp_ip);
 		return true;
     	
     }
