@@ -1,8 +1,8 @@
 package com.myabc.deploy;
 
 import com.myabc.config.config;
+import com.myabc.http.myhttp;
 
-import coom.myabc.http.myhttp;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -39,7 +39,10 @@ public class AppTest
         assertTrue( true );
     }
     
-    
+    public void test1()
+    {
+    	
+    }
     public void test()
     {
     	String s="{yhwd:\"007\",yhgy:\"0001\",gsdm: \"6003\",yhbm:\"46400116\"}";
