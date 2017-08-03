@@ -1,9 +1,0 @@
-2017-07-25 21:01:36  [ main:0 ] - [ INFO ]  Job execution threads will use class loader of thread: main
-2017-07-25 21:01:36  [ main:18 ] - [ INFO ]  Quartz Scheduler v.1.6.0 created.
-2017-07-25 21:01:36  [ main:24 ] - [ INFO ]  RAMJobStore initialized.
-2017-07-25 21:01:36  [ main:25 ] - [ INFO ]  Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-2017-07-25 21:01:36  [ main:25 ] - [ INFO ]  Quartz scheduler version: 1.6.0
-2017-07-25 21:01:36  [ main:40 ] - [ INFO ]  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2017-07-25 21:01:36  [ DefaultQuartzScheduler_Worker-1:48 ] - [ INFO ]  ftp:
-2017-07-25 21:01:38  [ DefaultQuartzScheduler_Worker-2:1856 ] - [ INFO ]  ftp:
-2017-07-25 21:01:40  [ DefaultQuartzScheduler_Worker-3:3856 ] - [ INFO ]  ftp:
