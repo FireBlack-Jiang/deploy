@@ -4,6 +4,7 @@ import java.util.Map;
 
 import com.google.code.regexp.Matcher;
 import com.google.code.regexp.Pattern;
+import com.google.gson.Gson;
 import com.myabc.logs.Log;
 
 public class PkgConverter {
@@ -23,7 +24,8 @@ public class PkgConverter {
 			Log.log.error("inFormat:\n"+inFormat);
 			paraMap=null;
 		}
-		System.out.println(paraMap.toString());
+		Gson gson=new Gson();
+		
 		return paraMap;
 	}
 
