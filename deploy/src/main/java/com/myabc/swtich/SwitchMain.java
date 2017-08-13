@@ -127,7 +127,7 @@ public class SwitchMain {
 		logger.info("TxCode is + ["+transCode+"]");
 		
 		if (transCode.equals("01")) {
-			Map<String, String> paraMap=PkgConverter.extractParaMap(packContent, PropConfig.get("test_qry"));
+			Map<String, String> paraMap=PkgConverter.extractParaMap(PropConfig.get("test_qry"), PropConfig.get("Tulip_Req_Qry"));
 			paraMap=editor.editTulipQry(paraMap);
 			logger.info("paraMap:"+paraMap);
 			String thirdPkg=PkgConverter.renderOutPkg(paraMap, PropConfig.get("Third_Req_Qry"));

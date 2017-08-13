@@ -125,12 +125,31 @@
 			<version>1.1</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.github.tsohr/json -->
-<dependency>
-    <groupId>com.github.tsohr</groupId>
-    <artifactId>json</artifactId>
-    <version>0.0.1</version>
-</dependency>
-		
+		<dependency>
+			<groupId>com.github.tsohr</groupId>
+			<artifactId>json</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<version>2.2.1</version>
+			<classifier>jdk15</classifier>
+		</dependency>
+
+		<dependency>
+			<groupId>xom</groupId>
+			<artifactId>xom</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/xstream/xstream -->
+		<!-- https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream -->
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+			<version>1.4.8</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

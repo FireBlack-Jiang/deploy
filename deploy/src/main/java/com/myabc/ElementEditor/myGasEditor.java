@@ -14,8 +14,9 @@ public  class myGasEditor implements IEditor{
 	public Map<String, String> editTulipQry(Map<String, String> paraMap,
 			String... args) {
 		// TODO Auto-generated method stub
-		
-		return null;
+		String yhbm=paraMap.get("Body.PaymentNo");
+		StringBuilder sb=new StringBuilder();
+		return paraMap;
 	}
 	/**
      * 
