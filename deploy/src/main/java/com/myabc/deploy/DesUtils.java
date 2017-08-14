@@ -6,6 +6,7 @@ import java.security.Security;
 
 import javax.crypto.Cipher;
 
+import com.myabc.config.PropConfig;
 import com.myabc.config.config;
 
 /**
@@ -109,7 +110,7 @@ public class DesUtils {
 		if(desUtil==null)
 			{
 			try {
-				desUtil=new DesUtils(config.getPropertieByName("DesPassword"));
+				desUtil=new DesUtils(PropConfig.get("DesPassword"));
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

@@ -133,7 +133,8 @@ public class SwitchMain {
 			String thirdPkg=PkgConverter.renderOutPkg(paraMap, PropConfig.get("Third_Req_Qry"));
 			logger.info("发送三方报文:"+thirdPkg);
 //			String thirdRet=CallThirdBusiness.callQry(thirdPkg);
-			String thirdRet=caller.call(thirdPkg);
+			//调用三方的方法名 findArrearsByUserCode
+			String thirdRet=caller.call(thirdPkg,"findArrearsByUserCode");
 			logger.info("三方返回报文:"+thirdRet);
 			
 			String retCode=thirdRet.substring(3, 5);
