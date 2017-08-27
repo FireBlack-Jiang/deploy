@@ -15,6 +15,8 @@ import java.security.MessageDigest;
 import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPReply;
 
+import com.myabc.logs.Log;
+
 public class myftp {
 
 	static String pathSeparator = File.separator;
@@ -284,7 +286,7 @@ public class myftp {
 			}
 		    catch (IOException e) 
 		    {
-				e.printStackTrace();
+				Log.logException(e);
 			}
 		finally 
 		{

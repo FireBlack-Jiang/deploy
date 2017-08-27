@@ -8,6 +8,7 @@ import com.github.tsohr.JSONObject;
 import com.google.code.regexp.Matcher;
 import com.google.code.regexp.Pattern;
 import com.google.gson.Gson;
+import com.myabc.config.PropConfig;
 import com.myabc.logs.Log;
 
 public class PkgConverter {
@@ -20,8 +21,9 @@ public class PkgConverter {
 	public static Map<String, String> extractParaMap(String inPkg,String inFormat){
 //		System.out.println("inFormat:"+inFormat);
 //		System.out.println("escapeExprSpecialWord(inFormat):"+escapeExprSpecialWord(inFormat));
-		Map<String, String> paraMap = Pattern.compile(escapeExprSpecialWord(inFormat)).matcher(inPkg).namedGroups();
-		if(paraMap.isEmpty()){
+		 Map<String, String> paraMap = Pattern.compile(escapeExprSpecialWord(inFormat)).matcher(inPkg).namedGroups();
+		if(paraMap.isEmpty())
+		{
 			Log.log.error("error: regexp not match");
 			Log.log.error("inPkg:\n"+inPkg);
 			Log.log.error("inFormat:\n"+inFormat);
@@ -50,7 +52,6 @@ public class PkgConverter {
 
 		return outPkg.toString();
 	}
-
 	/** 
 	 * 转义正则特殊字符 （$()*+.[]?\^{},|） 
 	 *  

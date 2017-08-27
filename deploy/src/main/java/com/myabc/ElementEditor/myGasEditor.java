@@ -4,6 +4,9 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
+import com.myabc.config.PropConfig;
+import com.myabc.swtich.SwitchMain;
+
 public  class myGasEditor implements IEditor{
 
 	/**
@@ -14,6 +17,10 @@ public  class myGasEditor implements IEditor{
 	public Map<String, String> editTulipQry(Map<String, String> paraMap,
 			String... args) {
 		// TODO Auto-generated method stub
+		if(SwitchMain.TestFlag)//测试环境
+		{
+			//return ;
+		}
 		String yhbm=paraMap.get("Body.PaymentNo");
 		StringBuilder sb=new StringBuilder();
 		return paraMap;
@@ -53,7 +60,7 @@ public  class myGasEditor implements IEditor{
 	public Map<String, String> editThirdQry(Map<String, String> paraMap,
 			String... args) {
 		// TODO Auto-generated method stub
-		return null;
+		return paraMap;
 	}
 	/**
 	 * 修改tulip缴费请求交易要素
@@ -63,7 +70,7 @@ public  class myGasEditor implements IEditor{
 	public Map<String, String> editTulipPay(Map<String, String> paraMap,
 			String... args) {
 		// TODO Auto-generated method stub
-		return null;
+		return paraMap;
 	}
 	/**
 	 * 修改三方返回缴费交易要素

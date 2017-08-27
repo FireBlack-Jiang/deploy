@@ -12,19 +12,24 @@ import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import net.sf.json.JSONObject;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.google.gson.Gson;
 import com.myabc.ElementEditor.IEditor;
 import com.myabc.Third.ThirdCaller;
 import com.myabc.config.PropConfig;
+import com.myabc.db.SqliteDBHelp;
+import com.myabc.deploy.JsonTools;
 import com.myabc.ftp.FileOperation;
 
 public class SwitchMain {
 	private final static Logger logger = LoggerFactory.getLogger(PropConfig.get("Switch_Name"));
 	private static boolean stopped = false;
 	private static Socket socket;
-	
+	public static boolean TestFlag=Boolean.parseBoolean(PropConfig.get("Test_Flag"));
 	private static IEditor editor;
 	private static ThirdCaller caller;
 	
@@ -42,6 +47,7 @@ public class SwitchMain {
 	}
 	
 	public static void main(String[] args)  throws Exception{
+		SqliteDBHelp.initdb();
 		int port=Integer.parseInt(PropConfig.get("port"));
 		final ServerSocket server = new ServerSocket(port);
 		logger.info("创建socket监听线程[端口:" + port + "]...");
@@ -95,7 +101,8 @@ public class SwitchMain {
 			// process packet
 			String outputStr = execCommand(packContent);
 			logger.info("返回报文：" + outputStr);
-
+           if(outputStr==null)
+        	   outputStr="<xml>bad</xml>";
 			// write output
 			dos.write(outputStr.getBytes("GBK"));
 //			dos.write(packLenStr.getBytes("GBK"));
@@ -127,7 +134,8 @@ public class SwitchMain {
 		logger.info("TxCode is + ["+transCode+"]");
 		
 		if (transCode.equals("01")) {
-			Map<String, String> paraMap=PkgConverter.extractParaMap(PropConfig.get("test_qry"), PropConfig.get("Tulip_Req_Qry"));
+			packContent=PropConfig.get("Tulip_Req_Qry_test");
+			Map<String, String> paraMap=PkgConverter.extractParaMap(packContent, PropConfig.get("Tulip_Req_Qry"));
 			paraMap=editor.editTulipQry(paraMap);
 			logger.info("paraMap:"+paraMap);
 			String thirdPkg=PkgConverter.renderOutPkg(paraMap, PropConfig.get("Third_Req_Qry"));
@@ -136,21 +144,34 @@ public class SwitchMain {
 			//调用三方的方法名 findArrearsByUserCode
 			String thirdRet=caller.call(thirdPkg,"findArrearsByUserCode");
 			logger.info("三方返回报文:"+thirdRet);
-			
-			String retCode=thirdRet.substring(3, 5);
-			
-			if(retCode.equalsIgnoreCase("00")){
+			if(TestFlag)
+			{
+				thirdRet=PropConfig.get("test_json");
+			}
+			Map<String, Object> ret_map=JsonTools.parseJSON2Map(thirdRet);
+			JSONObject json = JSONObject.fromObject(thirdRet);
+			 
+			//String retCode=ret_map.get("resultCode").toString();
+			String retCode=json.get("resultCode").toString();
+			if(retCode.equalsIgnoreCase("0000")){
+				
 				paraMap=PkgConverter.extractParaMap(thirdRet, PropConfig.get("Third_Resp_Qry"));
+				//paraMap=JsonTools.parseJSON2Map2(thirdRet);
 			}else {
 				paraMap=PkgConverter.extractParaMap(thirdRet, PropConfig.get("Third_Resp_Fail"));
 			}
 			
-			paraMap=editor.editThirdQry(paraMap, retCode);
+			//paraMap=editor.editThirdQry(paraMap, retCode);
 			logger.info("paraMap:"+paraMap);
-			
+			if(paraMap==null)
+				return null;
 			return  PkgConverter.renderOutPkg(paraMap, PropConfig.get("Tulip_Resp_Qry"));
-			
+//			return null;
 		} else if (transCode.equals("02")) {
+			if(TestFlag)
+			{
+				packContent=PropConfig.get("Tulip_Req_Pay_test");
+			}
 			Map<String, String> paraMap=PkgConverter.extractParaMap(packContent, PropConfig.get("Tulip_Req_Pay"));
 			paraMap=editor.editTulipPay(paraMap);
 			logger.info("paraMap:"+paraMap);
@@ -165,13 +186,13 @@ public class SwitchMain {
 			if(retCode.equalsIgnoreCase("00")){
 				paraMap=PkgConverter.extractParaMap(thirdRet, PropConfig.get("Third_Resp_Pay"));
 			}else {
-				paraMap=PkgConverter.extractParaMap(thirdRet, PropConfig.get("Third_Resp_Fail"));
+				//paraMap=PkgConverter.extractParaMap(thirdRet, PropConfig.get("Third_Resp_Fail"));
 			}
-			paraMap=editor.editThirdPay(paraMap, retCode);
+			//paraMap=editor.editThirdPay(paraMap, retCode);
 			logger.info("paraMap:"+paraMap);
 			
-			return  PkgConverter.renderOutPkg(paraMap, PropConfig.get("Tulip_Resp_Pay"));
-			
+			//return  PkgConverter.renderOutPkg(paraMap, PropConfig.get("Tulip_Resp_Pay"));
+			return null;
 		} else if (transCode.equals("04")){
 			Map<String, String> paraMap=PkgConverter.extractParaMap(packContent, PropConfig.get("Tulip_Req_Chk"));
 			String fileName=paraMap.get("Body.FileName");

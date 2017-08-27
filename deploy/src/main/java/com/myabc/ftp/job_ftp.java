@@ -30,14 +30,94 @@ public class job_ftp  implements Job{
 		// TODO Auto-generated method stub
 		init_ftp();
 		Log.log.info("初始化ftp参数成功");
-		
+		Log.log.info(PropConfig.get("Tulip_Req_Pay"));
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
+		Log.log.info(locaPath);
+		Log.log.info(username);
+		Log.log.info(password);
+		Log.log.info(remotepath);
 		if(myftp.testftp(ftp_ip, port, username, password))
 		{
 			Log.log.info("ftp is OK !");
 		}
 		else
 		{
-			Log.log.info("ftp is BAD !");
+			Log.log.error("ftp is BAD !");
 			return;
 		}
 //		SearchFile();
@@ -45,7 +125,7 @@ public class job_ftp  implements Job{
 			bat_uploadfiles_by_path(locaPath);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			Log.logException(e);
 		}
 	}
     private boolean init_ftp()
@@ -54,7 +134,7 @@ public class job_ftp  implements Job{
     	username=PropConfig.get("ftp_user");
     	password=PropConfig.get("ftp_password");
     	remotepath=PropConfig.get("ftp_remotepath");
-    	System.out.println("ftp:"+ftp_ip);
+    	Log.log.info("ftp:"+ftp_ip);
 		return true;
     	
     }
